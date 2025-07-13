@@ -31,3 +31,56 @@ A feature-rich, two-player dice rolling game built with **Python and Tkinter**. 
 
 ## 📂 Folder Structure
 
+Dice Rolling Game/
+├── Dice_Rolling_Game.py
+├── trophy.jpg
+├── icons/
+│ ├── dice1.jpg ... dice6.jpg
+├── Tunes/
+│ ├── roll.mp3
+│ └── win.mp3
+├── README.md
+└── dist/
+└── Dice_Rolling_Game.exe
+
+
+---
+
+## 📸 Screenshots
+
+| 🎲 Gameplay | 🏆 Win Animation | 📊 Score Graph |
+|------------|------------------|----------------|
+| ![Game UI](screenshots/game.png) | ![Trophy](screenshots/win.png) | ![Graph](screenshots/graph.png) |
+
+---
+
+## 🧩 Features Breakdown
+
+### ✅ GUI & Logic
+- Turn-based gameplay
+- Dice roll animation and logic (rolls again if 6 is rolled)
+- 50-point win condition
+
+### ✅ Audio & Visuals
+- Roll and win sounds via Pygame
+- Confetti animation using Canvas
+- Trophy popup with image or fallback emoji
+
+### ✅ Real-Time Countdown
+- Each player has 10 seconds per turn
+- Auto switch turn if time runs out
+
+### ✅ Avatars
+- Upload custom profile pictures (with circular cropping)
+- Shown above each player's roll button
+
+---
+
+## ▶️ How to Run
+
+### ✅ Option 1: Python
+
+Make sure you have the required libraries installed:
+
+```bash
+pip install pillow matplotlib pygame
