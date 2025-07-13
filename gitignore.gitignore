@@ -1,0 +1,7 @@
+__pycache__/
+*.spec
+*.exe
+*.log
+dist/
+build/
+.ipynb_checkpoints/
